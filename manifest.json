@@ -1,0 +1,35 @@
+{
+  "name": "ConnectX Ultra - المراسلة الفورية",
+  "short_name": "ConnectX",
+  "description": "منصة مراسلة فورية ذكية وسريعة تعمل بدون إنترنت مع دعم الوسائط والمكالمات",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "المحادثات",
+      "short_name": "محادثاتي",
+      "description": "فتح المحادثات مباشرة",
+      "url": "./index.html#chats",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
